@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            -ms-flex-direction: row;
+        }
+        .food{
+            border: 3px solid lightgray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        @media (max-width: 760px) {
+            .container {
+                flex-direction: column;
+            }
+            .container .food{
+                background-color: lightsalmon;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: skyblue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laudantium, eligendi cumque vel quas ipsum. Molestiae porro consequatur harum dolorum quod corporis architecto eos, sunt quos asperiores quis aspernatur sequi ipsa praesentium deserunt quam iste ea accusantium exercitationem optio. Rerum.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Totam sapiente libero quidem, corrupti esse quibusdam minima eos quo eveniet excepturi dignissimos, repellendus quae aspernatur molestias ullam at exercitationem ducimus blanditiis eligendi, laboriosam amet? Beatae id dolor quibusdam excepturi ullam velit commodi vel provident eligendi ab repudiandae, ex dolorum.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Molestiae, laboriosam mollitia quasi alias magni quisquam ab nostrum reprehenderit similique quibusdam sequi odit totam quo animi pariatur voluptatem dolore, quos vitae temporibus vero, beatae atque praesentium fuga quaerat. Expedita ut nostrum magni consectetur saepe architecto ipsum laborum vel consequuntur.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Cumque molestiae voluptate error commodi similique dolores dicta aspernatur aliquam dignissimos quibusdam laborum ipsam, voluptatum necessitatibus blanditiis repellendus, nisi cum? Molestias, officia perspiciatis distinctio qui tempora doloribus modi deleniti ea, non dolorum consectetur aliquid illo voluptate ullam minus soluta sint.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Ratione sequi voluptatibus sit ut minus magnam, vel officiis corporis explicabo enim sunt veritatis nesciunt debitis molestiae, hic nihil sapiente dolor perferendis, saepe tempore labore! Asperiores illo porro aliquid ratione quae maxime, quibusdam error. Rerum minima cupiditate rem nemo veritatis?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <p>Dignissimos asperiores, fugiat necessitatibus quasi suscipit aperiam cumque repellat architecto? Ad illum ipsum est, repellat, magnam iste nihil voluptatibus alias dolorum officiis possimus. Animi culpa molestiae nobis veniam deserunt aut beatae nulla nihil ratione reiciendis voluptate odio dolore, harum non?</p>
+        </div>
+    </div>
+</body>
+</html>
